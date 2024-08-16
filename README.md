@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# Setup and Run Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This guide will walk you through the steps to set up and run the project.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before you begin, make sure you have the following installed on your machine:
 
-### `npm start`
+- Node.js
+- npm (Node Package Manager)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository to your local machine.
+2. Open a terminal and navigate to the project directory.
+3. Run the command `npm install` to install the project dependencies.
 
-### `npm test`
+## Configuration
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Open the `config.js` file located in the project root directory.
+2. Modify the configuration settings according to your needs.
 
-### `npm run build`
+## Running the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. In the terminal, navigate to the project directory.
+2. Run the command `npm start` to start the project.
+3. Open your web browser and visit `http://localhost:3000` to access the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Admin Site
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Builder: Drag and drop components (Paragraph and Button).
+- Customization: Change Paragraph's text and Button's label and alert message.
 
-### `npm run eject`
+### Consumer Site
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- View Only Mode: Display pages built by the Admin site.
+- Interactive Button: Show an alert with the message set by Admin when clicked.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- If you would like to contribute to this project, please follow the guidelines in the `CONTRIBUTING.md` file.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
